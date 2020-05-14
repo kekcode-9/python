@@ -1,3 +1,6 @@
+#take a string of size n and a factor k of n. Divide the original string into a total of n/k substrings.
+#Make sure that each letter occurs only once in a particular ssubstring. That is no repeatation is allowed.
+
 from functools import reduce
 def merge_the_tools(str1, k):
 	def removeRepeates(str2):
